@@ -1,0 +1,100 @@
+codewizards32@codewizards32-Lenovo-C20-00:~$ python
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> variable_name=raw_input()
+hghg
+>>> variable_name
+'hghg'
+>>> naitik'
+  File "<stdin>", line 1
+    naitik'
+          ^
+SyntaxError: EOL while scanning string literal
+>>> natii
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'natii' is not defined
+>>> variable_name=raw_input()
+naitik
+>>> variable-name
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'variable' is not defined
+>>> variable_name
+'naitik'
+>>> variable_name=raw_input()
+99
+>>> int(variable_name)
+99
+>>> name=raw_input('enter your name:-')
+enter your name:-naitik
+>>> age=raw
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'raw' is not defined
+>>> age=int(raw_input("enter your age:-"))
+enter your age:-14
+>>> school=raw_input("enter your school name:-")\
+... school=raw_input("enter your school name:-")
+  File "<stdin>", line 2
+    school=raw_input("enter your school name:-")
+         ^
+SyntaxError: invalid syntax
+>>> school=raw_input("enter your school name:-") 
+enter your school name:-springdales school
+>>> physics=int(
+... 
+... 
+... 
+... c)
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+NameError: name 'c' is not defined
+>>> raw_input
+<built-in function raw_input>
+>>> physics=int(raw_input("enter your physics marks:-"))
+enter your physics marks:-95
+>>> chemistry=int(raw_input("enter your chemistry marks:-"))
+enter your chemistry marks:-96
+>>> maths=int(raw_input("enter your maths marks:-"))
+enter your maths marks:-97
+>>> english=int(raw_input("enter your english marks:-"))
+enter your english marks:-85
+>>> hindi=int(raw_input("enter your hindi marks:-"))
+enter your hindi marks:-75
+>>> biology=int(raw_input("enter your biology marks:-"))
+enter your biology marks:-8-0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '8-0'
+>>> biology=int(raw_input("enter your biology marks:-"))
+enter your biology marks:-80
+>>> total marks=physics+chemistry+biology+hindi+english+maths
+  File "<stdin>", line 1
+    total marks=physics+chemistry+biology+hindi+english+maths
+              ^
+SyntaxError: invalid syntax
+>>> total_marks=physics+chemistry+biology+hindi+english+maths
+>>> total_marks
+528
+>>> total_no_of_subjects=6
+>>> total_marks/total_no_of_subjects
+88
+>>> total_marks=total_marks+1
+>>> total_marks
+529
+>>> total_marks/total_no_of_subjects
+88
+>>> float("total_marks/total_no_of_subjects")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: total_marks/total_no_of_subjects
+>>> float(total_marks/total_no_of_subjects)
+88.0
+>>> float(total_marks)/total_no_of_subjects
+88.16666666666667
+>>> total_marks=total_marks+2
+>>> float(total_marks)/total_no_of_subjects
+88.5
+
