@@ -1,23 +1,21 @@
+def areaRectangle():
+    l=float(raw_input("enter the length:-"))
+    b=float(raw_input("enter the breadth:-"))
+    print "the area of this rectangle is:-",l*b
+def areaSquare():
+    s=float(raw_input("enter the side"))
+    return s**2
+def areaCircle():
+    r=float(raw_input("enter the radius:-"))
+    return 22/7*r**2
+def menu():
+    print "MENU:- \nArea of:-\n1.Circle\n2.Rectangle\n3.Square\n4 or more.Exit"
+
+
 while True:
-    print "MENU"
-    print "Area Of:-"
-    print "1. circle"
-    print "2. square"
-    print "3.rectangle"
-    print "4. exit"
-    abc=int(raw_input("enter your option:-"))
-    if abc==1:
-        radius=float(raw_input("enter the radius:-"))
-        arcircle=22/7*radius**2
-        print arcircle
-    elif abc==2:
-        s=float(raw_input("enter the side:-"))
-        arsquare=s**2
-        print arsquare
-    elif abc==3:
-        l=float(raw_input("enter the length"))
-        b=float(raw_input("enter the breadth"))
-        arrec=2*(l+b)
-        print arrec
-    elif abc==4:
-        break
+    menu()
+    ch=int(raw_input("enter your choice:-"))
+    if ch==1:print areaCircle()
+    elif ch==2:areaRectangle()
+    elif ch==3:print areaSquare()
+    else:break

@@ -1,3 +1,4 @@
+'''
 players=int(raw_input("enter the number of players:-"))
 a={}
 for i in range(0,players):
@@ -18,3 +19,31 @@ for i in range(0,players):
             break
 
 print a
+'''
+def players():
+    p=int(raw_input("enter the number of player"))
+    return p
+def runs():
+    r=int(raw_input("enter the runs on ball "))
+    return r
+p=players()
+
+
+
+for i in range(0,p):
+    pn = raw_input("enter player's name:-")
+    tr = 0
+    sc = []
+    while True:
+        r=runs()
+        tr+=r
+        sc.append(r)
+        if r==0:
+            print"oops you're out"
+            print sc
+            print "total runs are:-",tr
+            break
+
+
+
+
