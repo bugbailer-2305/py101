@@ -108,14 +108,14 @@ def get_option_index(x,y):
     t.speed(0)
     print x,y 
     global score,ques_index
-    if x<=-106 and x>=-548 and y>=-151 and y<=-66:
-        option_clicked=1
-    elif x>=38 and y>=-149 and x<=523 and y<=-66:
-        option_clicked=2
-    elif x>=-548 and x<=-106 and y<=-165 and y>=251:
-        option_clicked=3
-    elif x<=523 and x>=38 and y<=-165 and y>=-251:
-        option_clicked=4
+    if x <= -106 and x >= -548 and y >= -151 and y <= -66:
+        option_clicked = 1
+    elif x >= 38 and y >= -149 and x <= 523 and y <= -66:
+        option_clicked = 2
+    elif x >= -548 and x <= -106 and y <= -165 and y >= -251:
+        option_clicked = 3
+    elif x <= 523 and x >= 38 and y <= -165 and y >= -251:
+        option_clicked = 4
 
     if option_clicked==question[ques_index]["ans"]:
         t.color("yellow")
