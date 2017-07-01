@@ -11,6 +11,36 @@ question = [
         "question":"which is the most popular computer company?",
         "options":["a).HP ","b).Dell","c).asus","d).Apple"],
         "ans":4
+    },
+{
+        "question":"Maximum ram supported buy 32bit operating sytem.",
+        "options":["a).4gb","b).8gb","c).32gb","d).none of these"],
+        "ans":1
+    },
+    {
+        "question":"which hardware is important for gaming and video editing?",
+        "options":["a).graphics card ","b).ram","c).cpu","d).none of these"],
+        "ans":1
+    },
+{
+        "question":"which is the company with the biggest codes?",
+        "options":["a).google","b).apple","c).rockstar","d).none of these"],
+        "ans":1
+    },
+    {
+        "question":"which is the most popular ram company?",
+        "options":["a).corsair ","b).g. skill","c).kingston","d).Apple"],
+        "ans":1
+    },
+{
+        "question":"largest animal on earth?",
+        "options":["a).elephant","b).blue whale","c).shark","d).none of these"],
+        "ans":2
+    },
+    {
+        "question":"the first living things on earth?",
+        "options":["a).monkeys ","b).fishes","c).algae","d).none of these"],
+        "ans":3
     }
 ]
 
@@ -76,6 +106,7 @@ def display_question(q_index):
 
 def get_option_index(x,y):
     t.speed(0)
+    print x,y 
     global score,ques_index
     if x<=-106 and x>=-548 and y>=-151 and y<=-66:
         option_clicked=1
@@ -104,7 +135,7 @@ def get_option_index(x,y):
         t.clear()
         t.setpos(-150,0)
         t.color('yellow')
-        t.write("oops!better luck next time!"+"your final score is:-"+str(score),False,font=["jokerman",30,"bold"])
+        t.write("oops!better luck next time!"+"your final score is:-"+str(score),False,font=["jokerman",20,"bold"])
         t.exitonclick()
 
 

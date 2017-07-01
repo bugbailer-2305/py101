@@ -1,4 +1,4 @@
-'''
+
 players=int(raw_input("enter the number of players:-"))
 a={}
 for i in range(0,players):
@@ -19,7 +19,6 @@ for i in range(0,players):
             break
 
 print a
-'''
 
 
 
